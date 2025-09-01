@@ -1,13 +1,8 @@
-#!/bin/bash
-
-# Website Blocker (Mini Firewall) - Linux/macOS Runner Script
-
 echo "========================================"
 echo "   Website Blocker (Mini Firewall)"
 echo "========================================"
 echo
 
-# Check if running as root
 if [ "$EUID" -eq 0 ]; then
     echo "[INFO] Running with root privileges"
     echo
