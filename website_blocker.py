@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Website Blocker (Mini Firewall)
 A simple Python tool to block and unblock websites by modifying the hosts file.
@@ -390,3 +389,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
